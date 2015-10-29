@@ -8,22 +8,23 @@ h1{
 }
 .green {
 	height:100px;
-	width:800px;
+	width:100%;
 	background: green;
 	float:left;
 	margin: 5px;
 }
 
 .purple {
-	height:50px;
-	width:110px;
+	height:25%;
+	width:25%;
 	background: purple;
-	margin-left: 345px;
+	margin: 0 auto;
 	margin-top: 75px;
+	
 }
  .red {
  	height:200px;
- 	width:800px;
+ 	width:100%;
  	background: red;
  	float: left;
  	margin: 5px;
@@ -32,7 +33,7 @@ h1{
 
  .white {
  	height: 900px;
- 	width: 800px;
+ 	width: 100%;
  	margin: 5px;
  	
  }
@@ -63,13 +64,16 @@ h1{
   }
   .black {
   	height:150px;
-  	width:800px;
+  	width:100%;
   	background: black;
   	float: left;
   	margin-top: 5px;
   }
   .wrap {
   	height: 300px;
+  }
+  .grit {
+  	max-width: 1000px;
   }
 
 
@@ -78,17 +82,22 @@ h1{
   	.yellow {
   		width: 100%;
   		height: 100px;
+  		margin-bottom: 5px;
   	}
 
   	.blue {
   		width: 100%;
   		height: 150px;
+  		margin-bottom: 5px;
   	}
 
   	.orange { 
   		width: 100%;
   		height: 100px;
+  		margin-bottom: 5px;
   	}
+  	.purple { 
+  		margin-left: ;}
   }
 #html
 <html>
@@ -98,10 +107,11 @@ h1{
 		
 			
 		
-	</head>
+</head>
 	<body>
 		<!-- <div class = "purple"> 
 		</div> -->
+<div class = "grit">
 	<div class = "wrap">
 		<div class = "green">
 		</div>
@@ -113,10 +123,12 @@ h1{
 		<div class = "yellow">
 		</div>
 		<div class = "blue">
+		<p> 
 		</div>
 		<div class = "orange" >
 		</div>
 		<div class = "black">
 	</div>
+</div>
 	</body>
 </html>
